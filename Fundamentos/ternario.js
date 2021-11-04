@@ -1,0 +1,5 @@
+//Operador ternario composto por tres partes
+const resultado = nota => nota >= 7 ? 'Aprovado' : 'Reprovado'
+
+console.log(resultado(6))
+console.log(resultado(7))
